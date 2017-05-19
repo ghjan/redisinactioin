@@ -1,0 +1,11 @@
+*.pyc
+.idea/*
+shop.iml
+config_pay.py
+config_email*.py
+config_celery.py
+*/media/*
+*.sqlite3
+prepare/*
+educa/static/*
+educa/*/migrations/*
