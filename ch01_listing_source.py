@@ -318,6 +318,7 @@ class TestCh01(unittest.TestCase):
         port_r = 6379
         timeout = 220
         db_r = 15
+
         self.conn = redis.Redis(host=host_r, port=port_r, db=db_r, socket_connect_timeout=timeout)
         # for host_r in host_rs:
         #     self.conn = redis.Redis(host=host_r, port=port_r, db=db_r)
